@@ -1,0 +1,21 @@
+---
+
+lf-1a:
+    hostname: "172.19.41.223"
+    groups:
+        - arista_group
+
+lf-1b:
+    hostname: "172.19.41.224"
+    groups:
+        - arista_group
+
+gss1-lab:
+    hostname: "172.19.41.241"
+    groups:
+        - arista_group
+
+lab-sp-1:
+    hostname: "172.19.41.133"
+    groups:
+        - arista_group
