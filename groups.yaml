@@ -1,4 +1,4 @@
 ---
 
-cisco_group:
+arista_group:
     platform: "eos"

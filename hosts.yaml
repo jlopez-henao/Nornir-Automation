@@ -1,17 +1,17 @@
 ---
 
-lf-1a:
+lf-lab-1a:
     hostname: "172.19.41.223"
     groups:
         - arista_group
 
-lf-1b:
+lf-lab-1b:
     hostname: "172.19.41.224"
     groups:
         - arista_group
 
 gss1-lab:
-    hostname: "172.19.41.241"
+    hostname: "172.19.40.241"
     groups:
         - arista_group
 
