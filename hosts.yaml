@@ -1,21 +1,31 @@
 ---
 
-lf-lab-1a:
-    hostname: "172.19.41.223"
-    groups:
-        - arista_group
+# lf-lab-1a:
+#     hostname: "172.19.41.223"
+#     groups:
+#         - arista_group
 
-lf-lab-1b:
-    hostname: "172.19.41.224"
-    groups:
-        - arista_group
+# lf-lab-1b:
+#     hostname: "172.19.41.224"
+#     groups:
+#         - arista_group
 
-gss1-lab:
-    hostname: "172.19.40.241"
-    groups:
-        - arista_group
+# gss1-lab:
+#     hostname: "172.19.40.241"
+#     groups:
+#         - arista_group
 
-lab-sp-1:
-    hostname: "172.19.41.133"
+# lab-sp-1:
+#     hostname: "172.19.41.133"
+#     groups:
+#         - arista_group
+
+lf-cl-6a-oob:
+    hostname: "10.108.204.61"
     groups:
-        - arista_group
+        - arista_group_live
+
+lf-cl-6b-oob:
+    hostname: "10.108.204.62"
+    groups:
+        - arista_group_live

@@ -2,3 +2,6 @@
 
 arista_group:
     platform: "eos"
+
+arista_group_live:
+    platform: "eos"
