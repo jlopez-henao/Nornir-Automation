@@ -6,9 +6,9 @@ nr = InitNornir(config_file="config.yaml")
 
 def pull_interfaces_info(task):
     interfaces_result = task.run(task=napalm_get, getters= ["get_interfaces"])
-
+    task.host['interfaces'] = interfaces_result.result
+    
 results = nr.run(task=pull_interfaces_info)
-
+print_result(results)
 import ipdb
 ipdb.set_trace()
-print_result(results)
