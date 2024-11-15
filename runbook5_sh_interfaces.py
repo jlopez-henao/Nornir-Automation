@@ -20,23 +20,16 @@ def show_command_test(task):
     task.host['facts'] = json.loads(interfaces_result.result)
     interfaces = task.host['facts']['interfaceStatuses']
     for intf, status in interfaces.items():
-        # if intf ['linkStatus'] == 'notconnect':
-        #     available_intf.append(intf)
-        # print(intf)
-    # testvariable = task.host['facts']
-    # print(type(testvariable))
         if status['linkStatus'] == 'notconnect':
-            # print (intf)
             available_intf.append(intf)
-        # print (available_intf)
     return available_intf
 
-
-
-results = nr.run(task=show_command_test)
-print_result(results)
 # import ipdb
 # ipdb.set_trace()
+
+results = nr.run(task=show_command_test)
+# print_result(results)
+
 
 """
 available_intf = []
