@@ -9,6 +9,4 @@ def pull_interfaces_info(task):
 
 results = nr.run(task=pull_interfaces_info)
 
-import ipdb
-ipdb.set_trace()
 print_result(results)

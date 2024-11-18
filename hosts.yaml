@@ -20,6 +20,58 @@
 #     groups:
 #         - arista_group
 
+# LONDON
+
+lf-cl-1a-oob:
+    hostname: "lf-cl-1a-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-1b-oob:
+    hostname: "lf-cl-1b-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-2a-oob:
+    hostname: "lf-cl-2a-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-2b-oob:
+    hostname: "lf-cl-2b-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-3a-oob:
+    hostname: "lf-cl-3a-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-3b-oob:
+    hostname: "lf-cl-3b-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-4a-oob:
+    hostname: "lf-cl-4a-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-4b-oob:
+    hostname: "lf-cl-4b-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-5a-oob:
+    hostname: "lf-cl-5a-oob"
+    groups:
+        - arista_group_live
+
+lf-cl-5b-oob:
+    hostname: "lf-cl-5b-oob"
+    groups:
+        - arista_group_live
+
 lf-cl-6a-oob:
     hostname: "10.108.204.61"
     groups:
@@ -27,5 +79,35 @@ lf-cl-6a-oob:
 
 lf-cl-6b-oob:
     hostname: "10.108.204.62"
+    groups:
+        - arista_group_live
+
+lf-gss-1a-oob:
+    hostname: "lf-gss-1a-oob"
+    groups:
+        - arista_group_live
+
+lf-gss-1b-oob:
+    hostname: "lf-gss-1b-oob"
+    groups:
+        - arista_group_live
+
+lf-gss-2a-oob:
+    hostname: "lf-gss-2a-oob"
+    groups:
+        - arista_group_live
+
+lf-gss-2b-oob:
+    hostname: "lf-gss-2b-oob"
+    groups:
+        - arista_group_live
+
+lf-gss-3a-oob:
+    hostname: "lf-gss-3a-oob"
+    groups:
+        - arista_group_live
+
+lf-gss-3b-oob:
+    hostname: "lf-gss-3b-oob"
     groups:
         - arista_group_live
