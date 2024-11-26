@@ -111,3 +111,225 @@ lf-gss-3b-oob:
     hostname: "lf-gss-3b-oob"
     groups:
         - arista_group_live
+
+# LOS ANGELES
+
+lf-al-2a.la.framestore.com:
+    hostname: "lf-al-2a.la.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-al-2b.la.framestore.com:
+    hostname: "lf-al-2b.la.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-al-3a.la.framestore.com:
+    hostname: "ssh "
+    groups:
+        - arista_group_live
+
+lf-al-3b.la.framestore.com:
+    hostname: "10.132.32.245"
+    groups:
+        - arista_group_live
+
+lf-ex-1a.la.framestore.com:
+    hostname: "lf-ex-1a.la.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ex-1b.la.framestore.com:
+    hostname: "lf-ex-1b.la.framestore.com"
+    groups:
+        - arista_group_live
+
+# NEW YORK
+
+lf-aoa-1a.nyc.framestore.com:
+    hostname: "lf-aoa-1a.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-aoa-1b.nyc.framestore.com:
+    hostname: "lf-aoa-1b.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-bw-1a.nyc.framestore.com:
+    hostname: "lf-bw-1a-oob.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-bw-1b.nyc.framestore.com:
+    hostname: "lf-bw-1b-oob.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-bw-2a.nyc.framestore.com:
+    hostname: "lf-bw-2a-oob.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-bw-2b.nyc.framestore.com:
+    hostname: "lf-bw-2b-oob.nyc.framestore.com"
+    groups:
+        - arista_group_live
+
+# MONTREAL
+
+lf-sqv-1a.mtl.framestore.com:
+    hostname: "lf-sqv-1a.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-sqv-1b.mtl.framestore.com:
+    hostname: "lf-sqv-1b.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-sj-1a.mtl.framestore.com:
+    hostname: "lf-sj-1a-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-sj-1b.mtl.framestore.com:
+    hostname: "lf-sj-1b-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-2a.mtl.framestore.com:
+    hostname: "lf-dg-2a-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-2b.mtl.framestore.com:
+    hostname: "lf-dg-2b-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-3a.mtl.framestore.com:
+    hostname: "lf-dg-3a-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-3b.mtl.framestore.com:
+    hostname: "lf-dg-3b-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-5a.mtl.framestore.com:
+    hostname: "lf-dg-5a-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-5b.mtl.framestore.com:
+    hostname: "lf-dg-5b-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-6a.mtl.framestore.com:
+    hostname: "lf-dg-6a-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-dg-6b.mtl.framestore.com:
+    hostname: "lf-dg-6b-oob.mtl.framestore.com"
+    groups:
+        - arista_group_live
+
+# CHICAGO
+
+lf-ls-1a.chi.framestore.com:
+    hostname: "lf-ls-1a.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ls-1b.chi.framestore.com:
+    hostname: "lf-ls-1b.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-wj-1a.chi.framestore.com:
+    hostname: "lf-wj-1a-oob.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-wj-1b.chi.framestore.com:
+    hostname: "lf-wj-1b-oob.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-wj-2a.chi.framestore.com:
+    hostname: "lf-wj-2a-oob.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-wj-2b.chi.framestore.com:
+    hostname: "lf-wj-2b-oob.chi.framestore.com"
+    groups:
+        - arista_group_live
+
+# MELBOURNE
+
+stk-core01.mel.framestore.com:
+    hostname: "stk-core01.mel.framestore.com"
+    groups:
+        - arista_group_live
+
+stk-core02.mel.framestore.com:
+    hostname: "stk-core02.mel.framestore.com"
+    groups:
+        - arista_group_live
+
+# MUMBAI
+
+lf-chr-1a.mum.framestore.com:
+    hostname: "lf-chr-1a.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-chr-1b.mum.framestore.com:
+    hostname: "lf-chr-1b.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-1a.mum.framestore.com:
+    hostname: "lf-ne-1a-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-1b.mum.framestore.com:
+    hostname: "lf-ne-1b-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-2a.mum.framestore.com:
+    hostname: "lf-ne-2a-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-2b.mum.framestore.com:
+    hostname: "lf-ne-2b-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-3a.mum.framestore.com:
+    hostname: "lf-ne-3a-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-3b.mum.framestore.com:
+    hostname: "lf-ne-3b-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-4a.mum.framestore.com:
+    hostname: "lf-ne-4a-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
+
+lf-ne-4b.mum.framestore.com:
+    hostname: "lf-ne-4b-oob.mum.framestore.com"
+    groups:
+        - arista_group_live
