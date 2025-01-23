@@ -9,3 +9,17 @@ def show_command_test(task):
 
 results = nr.run(task=show_command_test)
 print_result(results)
+
++--project_directory
+   +--snapshot
+   |  +--configs
+   |     +--EOS1.cfg
+   |     +--VX1.cfg
+   |     +--XR1.cfg
+   +--main.py
+
+
+3
+$ python3.9 -m venv venv
+$ source venv/bin activate
+(venv)$ pip install pybatfish

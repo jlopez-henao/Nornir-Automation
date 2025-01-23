@@ -8,6 +8,7 @@ nr = InitNornir(config_file="config.yaml")
 def show_command_test(task):
     available_intf = []
     interfaces_result = task.run(task=send_command, command="show interface status | json")
+    # print("I'm here")
     task.host['facts'] = json.loads(interfaces_result.result)
     interfaces = task.host['facts']['interfaceStatuses']
     for intf, status in interfaces.items():

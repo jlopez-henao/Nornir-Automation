@@ -5,3 +5,16 @@ arista_group:
 
 arista_group_live:
     platform: "eos"
+
+# dell_group_mtl:
+#     platform: "dellos"
+
+# cisco_group:
+#     platform: 'ios'
+#     connection_options:
+#         scrapli_netconf:
+#             extras:
+#                 port: 830
+#                 ssh_config_file: True
+#                 auth_strict_key: False
+#                 timeout_transport: 10
